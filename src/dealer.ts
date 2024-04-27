@@ -1,6 +1,6 @@
 class Dealer<D extends object> {
   private _deck: D[];
-  private _drawPile: D[];
+  public _drawPile: D[];
   private _discardPile: D[];
 
   /**
